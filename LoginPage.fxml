@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.e_commerce.LoginPageController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#426078fb" height="500.0" stroke="BLACK" strokeType="INSIDE" width="500.0" />
+      <Label layoutX="81.0" layoutY="55.0" prefHeight="65.0" prefWidth="197.0" text="Login page" textFill="#803535">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="146.0" text="Email" textFill="#15fc00" />
+      <Label layoutX="76.0" layoutY="214.0" prefHeight="17.0" prefWidth="69.0" text="Password" textFill="#8fe169" />
+      <Button layoutX="224.0" layoutY="336.0" mnemonicParsing="false" onMouseClicked="#login" prefHeight="25.0" prefWidth="59.0" text="Login" />
+      <TextField fx:id="email" layoutX="76.0" layoutY="175.0" promptText="Email Id" />
+      <PasswordField fx:id="password" layoutX="76.0" layoutY="238.0" promptText="Password" />
+   </children>
+</AnchorPane>
